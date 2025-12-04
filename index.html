@@ -14,99 +14,101 @@
   </head>
   <body>
     <div class="container text-white">
-      <header class="mt-5 mb-5">
+      <header class="my-5">
         <h1 class="text-center text-black">Bootstrap 5 Responsive Grid</h1>
         <p class="text-center text-secondary fs-5">
           Layout a griglia da diversi breakpoint (sm, md, lg).
         </p>
       </header>
-      <!-- Prima Row -->
-      <div class="row row-cols-1 row-cols-md-2 mb-4">
-        <div class="flex-grow-1 col-lg-4 bg-light text-black">
-          <div class="p-3">
-            <h2>Colonna 1</h2>
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem quas eligendi ea
-              officia fuga eveniet?
-            </p>
+      <div class="d-flex flex-column gap-4">
+        <!-- Prima Row -->
+        <div class="row row-cols-md-2">
+          <div class="col-lg-4 bg-light text-black">
+            <div class="p-3">
+              <h2>Colonna 1</h2>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem quas eligendi ea
+                officia fuga eveniet?
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-8 bg-secondary">
+            <div class="p-3">
+              <h2>Colonna 2</h2>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem quas eligendi ea
+                officia fuga eveniet?
+              </p>
+            </div>
           </div>
         </div>
-        <div class="flex-grow-1 col-lg-8 bg-secondary">
-          <div class="p-3">
-            <h2>Colonna 2</h2>
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem quas eligendi ea
-              officia fuga eveniet?
-            </p>
+        <!-- Seconda Row -->
+        <div class="row row-cols-2 row-cols-md-3">
+          <div class="bg-primary">
+            <div class="p-3">
+              <h2>Colonna 1</h2>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem quas eligendi ea
+                officia fuga eveniet?
+              </p>
+            </div>
+          </div>
+          <div class="bg-success">
+            <div class="p-3">
+              <h2>Colonna 2</h2>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem quas eligendi ea
+                officia fuga eveniet?
+              </p>
+            </div>
+          </div>
+          <div class="flex-grow-1 bg-danger">
+            <div class="p-3">
+              <h2>Colonna 3</h2>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem quas eligendi ea
+                officia fuga eveniet?
+              </p>
+            </div>
           </div>
         </div>
-      </div>
-      <!-- Seconda Row -->
-      <div class="row row-cols-2 row-cols-md-3 mb-4">
-        <div class="flex-grow-1 bg-primary">
-          <div class="p-3">
-            <h2>Colonna 1</h2>
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem quas eligendi ea
-              officia fuga eveniet?
-            </p>
+        <!-- Terza Row -->
+        <div class="row row-cols-2 row-cols-md-4">
+          <div class="bg-info">
+            <div class="p-3">
+              <h2>Colonna 3</h2>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem quas eligendi ea
+                officia fuga eveniet?
+              </p>
+            </div>
           </div>
-        </div>
-        <div class="flex-grow-1 bg-success">
-          <div class="p-3">
-            <h2>Colonna 2</h2>
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem quas eligendi ea
-              officia fuga eveniet?
-            </p>
+          <div class="bg-warning">
+            <div class="p-3">
+              <h2>Colonna 3</h2>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem quas eligendi ea
+                officia fuga eveniet?
+              </p>
+            </div>
           </div>
-        </div>
-        <div class="flex-grow-1 bg-danger">
-          <div class="p-3">
-            <h2>Colonna 3</h2>
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem quas eligendi ea
-              officia fuga eveniet?
-            </p>
+          <div class="bg-dark">
+            <div class="p-3">
+              <h2>Colonna 3</h2>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem quas eligendi ea
+                officia fuga eveniet?
+              </p>
+            </div>
           </div>
-        </div>
-      </div>
-      <!-- Terza Row -->
-      <div class="row row-cols-2 row-cols-md-4 mb-5">
-        <div class="flex-grow-1 bg-info">
-          <div class="p-3">
-            <h2>Colonna 3</h2>
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem quas eligendi ea
-              officia fuga eveniet?
-            </p>
-          </div>
-        </div>
-        <div class="flex-grow-1 bg-warning">
-          <div class="p-3">
-            <h2>Colonna 3</h2>
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem quas eligendi ea
-              officia fuga eveniet?
-            </p>
-          </div>
-        </div>
-        <div class="flex-grow-1 bg-dark">
-          <div class="p-3">
-            <h2>Colonna 3</h2>
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem quas eligendi ea
-              officia fuga eveniet?
-            </p>
-          </div>
-        </div>
-        <div class="flex-grow-1 bg-light text-black">
-          <div class="p-3">
-            <h2>Colonna 3</h2>
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem quas eligendi ea
-              officia fuga eveniet?
-            </p>
+          <div class="bg-light text-black">
+            <div class="p-3">
+              <h2>Colonna 3</h2>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem quas eligendi ea
+                officia fuga eveniet?
+              </p>
+            </div>
           </div>
         </div>
       </div>
